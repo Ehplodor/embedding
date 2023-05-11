@@ -7,7 +7,7 @@ REM Set the path to the Python interpreter
 set PYTHON_EXECUTABLE=venv\Scripts\python.exe
 
 REM Set the path to the activate_and_run.py script
-set SCRIPT_PATH=activate_and_run.py
+set SCRIPT_PATH=word_embedding_trainer.py
 
 REM Check if the venv directory exists
 if not exist venv (
