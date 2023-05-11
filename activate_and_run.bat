@@ -18,6 +18,9 @@ if not exist venv (
 REM Activate the virtual environment
 call venv\Scripts\activate.bat
 
+REM Install/update packages from requirements.txt
+pip install -r requirements.txt
+
 REM Execute the script
 %PYTHON_EXECUTABLE% %SCRIPT_PATH%
 
